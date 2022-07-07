@@ -2,7 +2,7 @@
 @section('content')
     <div class="welcome">
         <div class="datas">
-            <img src="{{ asset('img/batmanlogo.png') }}" alt="">
+            <img src="{{ secure_asset('img/batmanlogo.png') }}" alt="">
             <p class="new">NOVO FILME</p>
             <p>A vingança chegou em Gotham. Chegou no HBO Max.</p>
             <div class="options">
@@ -19,7 +19,7 @@
             <div class="row">
                 <a href="#" class="item">
                     <div class="img">
-                        <img src="{{ asset('img/filme1.jpeg') }}" alt="">
+                        <img src="{{ secure_asset('img/filme1.jpeg') }}" alt="">
                     </div>
                     <div class="name">
                         Jogador Número 1
@@ -27,7 +27,7 @@
                 </a>
                 <a href="#" class="item">
                     <div class="img">
-                        <img src="{{ asset('img/filme2.jpg') }}" alt="">
+                        <img src="{{ secure_asset('img/filme2.jpg') }}" alt="">
                     </div>
                     <div class="name">
                         Matrix
@@ -35,7 +35,7 @@
                 </a>
                 <a href="#" class="item">
                     <div class="img">
-                        <img src="{{ asset('img/filme3.webp') }}" alt="">
+                        <img src="{{ secure_asset('img/filme3.webp') }}" alt="">
                     </div>
                     <div class="name">
                         O Incrível Mundo de Gumball
@@ -43,7 +43,7 @@
                 </a>
                 <a href="#" class="item">
                     <div class="img">
-                        <img src="{{ asset('img/filme4.webp') }}" alt="">
+                        <img src="{{ secure_asset('img/filme4.webp') }}" alt="">
                     </div>
                     <div class="name">
                         Duna
@@ -51,7 +51,7 @@
                 </a>
                 <a href="#" class="item">
                     <div class="img">
-                        <img src="{{ asset('img/filme5.webp') }}" alt="">
+                        <img src="{{ secure_asset('img/filme5.webp') }}" alt="">
                     </div>
                     <div class="name">
                         Homem-Aranha
